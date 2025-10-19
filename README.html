@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <title>Ceramic Art</title>
+
+  <style>
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .mainimage{
+      margin-left: 150px;
+    }
+    .title{
+      display: flex;
+      align-content: center;
+      margin-top: -37px;
+      margin-left: 500px;
+    }
+    .title li{
+      list-style: none;
+    }
+    .title li a{
+      text-decoration: none;
+      color: brown;
+    }
+    .bro{
+      margin-left: 1200px;
+      margin-top: -32px;
+      justify-content: space-evenly;
+    }
+    .maintext{
+      font-size: 200px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 30;
+      transform: translate(0%,0%);
+      margin-left: 70px;
+      margin-top: -260px;
+      overflow: hidden;
+      color: brown;
+    }
+    .pot{
+      margin-left: 130px;
+      overflow: visible;
+    }
+    .babytext{
+      color: brown;
+      margin-top: -720px;
+      margin-left: 850px;
+    }
+    .catalog{
+      font-size: 30px;
+      height: 150px;
+      width: 35px;
+      background-color: brown;
+      border-radius: 9px;
+      text-decoration: none;
+      color: rgb(254, 254, 254);
+      margin-left: 850px;
+    }
+    .cataog{
+      font-size: 30px;
+      height: 150px;
+      width: 35px;
+      background-color: brown;
+      border-radius: 9px;
+      text-decoration: none;
+      color: rgb(254, 254, 254);
+    }
+    /* end of section 1 */
+    .secondpage{
+      background-color:rgb(255, 255, 255);
+    }
+    .about{
+      margin-top: 490px;
+      color:brown;
+      font-size: 12px;
+    }
+    .line1{
+      margin-top: -25px;
+      width: 680px;
+      color: rgb(220, 107, 62);
+    }
+    .linetext{
+      margin-top: -5px;
+      margin-left:370px ;
+      font-size: 20px;
+      color: rgb(220, 107, 62);
+    }
+    .firsth3{
+      margin-left:720px ;
+      font-size: 15px;
+      color: rgb(220, 107, 62);
+      margin-top: -61px;
+    }
+    .line2{
+      margin-top: 0px;
+      width: 680px;
+      color: rgb(220, 107, 62);
+    }
+    .linetext2{
+      margin-top: -5px;
+      margin-left:370px ;
+      font-size: 20px;
+      color: rgb(220, 107, 62);
+    }
+    .firsth32{
+      margin-left:720px ;
+      font-size: 15px;
+      color: rgb(220, 107, 62);
+      margin-top: -61px;
+    }
+    .line3{
+      margin-top: 0px;
+      width: 680px;
+      background-color: rgb(220, 107, 62);
+    }
+    .linetext3{
+      margin-top: -5px;
+      margin-left:370px ;
+      font-size: 20px;
+      color: rgb(220, 107, 62);
+    }
+    .firsth33{
+      margin-left:720px ;
+      font-size: 15px;
+      color: rgb(220, 107, 62);
+      margin-top: -61px;
+    }
+    .line4{
+      margin-top: 0px;
+      width: 680px;
+      background-color: rgb(220, 107, 62);
+    }
+    .pot2 {
+      display:flex;
+      margin-top: -30px;
+    }
+    .pot3 {
+      display:flex;
+      margin-top: -260px;
+      margin-left: 725px;
+    }
+    .pot4{
+      display:flex;
+      margin-top: -380px;
+      margin-left: 1069px;
+    }
+    /* end of section 2 */
+    .abc{
+      display: flex;
+      justify-content: center;
+    }
+    .popular{
+      display: flex;
+      margin-top: 200px;
+      margin-left: -76px;
+      font-size: 12px;
+      color: brown;
+    }
+    .view{
+      display: flex;
+      margin-top: 194px;
+      margin-left: 1150px;
+      color: brown;
+    }
+    .img1{
+      display: flex;
+      margin-left: 30px;
+      margin-top: -30px;
+    }
+    .img2{
+      display: flex;
+      margin-left: 685px;
+      margin-top: -410px;
+    }
+    .img3{
+      display: flex;
+      margin-left: 60px;
+      margin-top: 90px;
+    }
+    .img4{
+      display: flex;
+      margin-left: 710px;
+      margin-top: -535px;
+    }
+    .img5{
+      display: flex;
+      margin-left: 960px;
+      margin-top: -300px;
+    }
+    .img6{
+      display: flex;
+      margin-left: 960px;
+      margin-top: -790px;
+    }
+    .pop{
+      display: flex;
+      margin-top: 300px;
+      margin-left: 70px;
+      font-size: 12px;
+      color: brown;
+    }
+    .des{
+      margin-top: 100px;
+    }
+    .img8{
+      margin-left: 100px;
+      margin-top: 100px;
+    }
+    .op{
+      height: 400px;
+      width: 3px;
+      background-color: rgb(220, 94, 52);
+      margin-left: 850px;
+      margin-top: -430px;
+      position: relative;
+    }
+    .design li{
+      list-style: none;
+    }
+    .design{
+      color: brown;
+      margin-top: -230PX;
+      justify-content: center;
+      margin-left: 830px;
+      font-family: 'Playfair Display', serif;
+      font-weight: 100;
+    }
+    .cup{
+      font-size: 40px; 
+      opacity: 60%;
+      transition: font-size 0.6s ease; 
+      cursor: pointer;
+      text-decoration: none; 
+      color: brown;
+    }
+    .cup:hover{
+      font-size: 80px;
+      opacity: 100%;
+    }
+    /* end of section 3 */
+    .popu{
+      display: flex;
+      margin-top: 100px;
+      margin-left: 70px;
+      font-size: 12px;
+      color: brown;
+    }
+    .view2{
+      display: flex;
+      margin-top: -40px;
+      margin-left: 1150px;
+      color: brown;
+    }
+    .body{
+      height: 390px;
+      width: 600px;
+      border-radius: 30px;
+      background-color: rgb(244, 244, 215);
+      margin-left: 80px;
+    }
+    .pollection{
+      height:20px;
+      width:90px;
+      overflow:hidden;
+      background-color: brown;
+      color: rgb(252, 252, 252);
+      border-radius:  30px;
+      justify-content: center;
+      align-content: center;
+      margin-top: -360px;
+      margin-left: 107px;
+    }
+    .newcollection{
+      height: 350px;
+      width: 250px;
+      background-color: rgb(255, 255, 255);
+      border-radius:  30px;
+      align-content: center;
+      margin-left: 95px;
+      margin-top: -390px;
+      color: rgb(229, 38, 13);
+    }
+    .alert{
+      margin-left: -20px;
+    }
+    .aler{
+      margin-left: -20px;
+      margin-top: 37px;
+      color: rgb(229, 38, 13);
+    }
+    .po{
+      margin-top: -80px;
+    }
+    .img9{
+      margin-left: 40px;
+    }
+    .materials{
+      align-items: center;
+      height: 130px;
+      width:700px;
+      background-color: rgb(244, 244, 215);
+      margin-left:685px;
+      margin-top: -413px;
+      border-radius: 30px;
+      color: brown;
+    }
+    .material{
+      height:20px;
+      width:90px;
+      background-color: brown;
+      color: rgb(254, 254, 254);
+      border-radius:  30px;
+      align-content: center;
+      margin-top: -96px;
+    }
+    .date{
+      margin-left: 550px;
+      margin-top: -40px;
+    }
+    .transform{
+      align-items: center;
+      height: 130px;
+      width:700px;
+      background-color: rgb(244, 244, 215);
+      margin-left:685px;
+      margin-top: -13px;
+      border-radius: 30px;
+      color: brown;
+    }
+    .form{
+      height:20px;
+      width:100px;
+      background-color: brown;
+      color: rgb(254, 254, 254);
+      border-radius:  30px;
+      align-content: center;
+      margin-top: -97px;
+    }
+    .dae{
+      margin-left: 553px;
+      margin-top: -40px;
+    }
+    .coll{
+      align-items: center;
+      height: 130px;
+      width:700px;
+      background-color: rgb(244, 244, 215);
+      margin-left:685px;
+      margin-top: -13px;
+      border-radius: 30px;
+      color: brown;
+    }
+    .for{
+      height:20px;
+      width:120px;
+      background-color: brown;
+      color: rgb(254, 254, 254);
+      border-radius:  30px;
+      align-content: center;
+      margin-top: -97px;
+    }
+    .tea{
+      margin-left: 553px;
+      margin-top: -40px;
+    }
+    .yy{
+      margin-left: 60px;
+      color: brown;
+    }
+    .img10{
+      margin-left: 90px;
+    }
+    .tree, .tree1, .tree2, .tree3, .tree4, .tree5{
+      height:200px;
+      width: 300px;
+      background-color: rgb(244, 244, 215);
+      align-content: center;
+      border-radius: 30px;
+    }
+    .tree{margin-left: 710px; margin-top: -407px;}
+    .tree1{margin-left: 1060px; margin-top: 7px;}
+    .tree2{margin-left: 710px; margin-top: -10px;}
+    .tree3{margin-left: 110px; margin-top: -7px;}
+    .tree4{margin-left: 1070px; margin-top: -220px;}
+    .tree5{margin-left: 720px; margin-top: 60px;}
+    .branch1, .branch2, .branch3, .branch4, .branch5, .branch6,
+    .root1, .root2, .root3, .root4, .root5, .root6{
+      font-size: 12px;
+    }
+    .img11{
+      margin-top:-470px;
+      margin-left: 420px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="pro">
+        <div class="eee">
+          <a class="mainimage"><img src="/Users/rameez/Downloads/ok/Screenshot 2025-07-30 at 6.13.56 PM.jpeg"height ="45px" width="130px" alt="htt"></a>
+        <ul class="title">
+            <li><a href="#">CATALOG &nbsp;  &nbsp; &nbsp; &nbsp;</a></li>
+            <li><a href="#">NEWS &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
+            <li><a href="#">ABOUT &nbsp;US &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
+             <li><a href="#">CONTACTS &nbsp; &nbsp; &nbsp; &nbsp;</a></li>
+        </ul>
+        <ul class="bro">
+           <i class="fa-brands fa-instagram" >&nbsp;&nbsp;&nbsp;</i>
+             <i class="fa-brands fa-facebook-f"></i>
+             </ul>
+             <ul>
+                <a class="pot"><img src="/Users/rameez/Downloads/ok/IMG_4408-removebg-preview.png" hight="700px" width="750px" rel="nothing "></a>
+             <span><h1 class="maintext">CERAMIC ART</h1></span>
+             <p class="babytext">Discover the beauty of handcrafted <br>ceramics. Each piece is uniquely designed <br>and made with care, ensuring quality and<br> artistry in every detail Explore 
+                our <br>collection and find the pérfect addition to<br> your home.</p>
+             <a href="" class="catalog">&nbsp;&nbsp;&nbsp; CATALOG&nbsp;&nbsp;&nbsp;</a>
+               <a href="" class="cataog">&nbsp;&nbsp;&nbsp; ↓&nbsp;&nbsp;&nbsp;</a>
+            </ul>            
+    </div>
+    </section>
+    <section class="secondpage">
+        <div class="story">
+            <ul>
+            <h1 class="about">ABOUT US</h1>
+              <hr class="line1">
+             <h1 class="linetext">Our Story: Traditions and<br> Innovations in Ceramics</h1>
+             <h3 class="firsth3">Our company was founded with the aim of reviving<br> traditional ceramic art while blending it with<br> modern designs. We take pride 
+                in ensuring that <br>every detail reflects our passion for quality and<br> attention to materials.</h3>
+             <hr class="line2">
+              <h1 class="linetext2">Unique Studio: A Space for<br> Creativity and Inspiration</h1>
+             <h3 class="firsth32">Our studio is a creative space where artisans work <br>to create unique ceramic pieces. It is an <br>atmosphere filled with inspiration, and each <br>element,
+                 from the idea to the finished product.<br> undergoes careful development.</h3>
+                 <hr class="line3">
+              <h1 class="linetext3">Team of Professionals: Masters <br>of Their Craft</h1>
+             <h3 class="firsth33">Our team consists of skilled artisans who are <br>dedicated to their craft. We strive for excellence in <br>every detail, ensuring high standards of quality and<br> he uniqueness of each diece created in our studio.</h3>
+              <hr class="line4">
+                </ul> 
+                </div>
+                <a class="pot2"><img src="/Users/rameez/Downloads/ok/Screenshot_2025-07-31_at_7.53.50_PM-removebg-preview.png" height="250px"width="300px" alt="not"></a>
+               <a class="pot3"><img src="/Users/rameez/Downloads/ok/Screenshot_2025-08-01_at_12.37.06_AM-removebg-preview.png" height="400px"width="400px" alt="nt"></a>
+               <a class="pot4"><img src="/Users/rameez/Downloads/ok/Screenshot_2025-08-01_at_12.37.14_AM-removebg-preview-2.png" height="250px"width="250px" alt="ot"></a>
+    </section>
+    <section class="trirdpage">
+        <div class="populate">
+            <ul class="abc">
+            <h5 class="popular">POPULAR</h5>
+            <a  href="#" class="view ">VIEW ALL</a>
+            </ul>
+        </div>
+             <a class="img1"><img src="/Users/rameez/Downloads/ok/Screenshot_2025-08-01_at_5.49.27_PM-removebg-preview.png" height="400px" width="700px"alt="t"></a>
+              <a class="img2"><img src="/Users/rameez/Downloads/ok/Screenshot_2025-08-01_at_5.49.35_PM-removebg-preview.png"  height="300px"  width="300px" alt="t"></a>
+              <a class="img3"><img src="/Users/rameez/Downloads/ok/Screenshot_2025-08-01_at_5.50.05_PM-removebg-preview.png"height="400px"  width="670px"  alt="t"></a>
+               <a class="img4"><img src="/Users/rameez/Downloads/ok/Screenshot_2025-08-01_at_5.50.17_PM-removebg-preview.png"height="540px"  width="270px"  alt="t"></a>
+         <a class="img5"><img src="/Users/rameez/Downloads/ok/Screenshot_2025-08-01_at_5.50.25_PM-removebg-preview-2.png"height="300px"  width="300px"  alt="t"></a>
+         <a class="img6"><img src="/Users/rameez/Downloads/ok/B9A061AB-36E3-47FF-95FE-92A30EBF84AA-removebg-preview.png"height="540px"  width="270px"  alt="t"></a>
+        </section>
+        <section class="hover">
+              <h5 class="pop">CATAGORIES</h5>
+              <div class="des">
+  <a class="img8"><img src="/Users/rameez/Downloads/ok/Screenshot 2025-08-02 at 4.08.42 PM.png"height="180px"  width="470px"  alt="t"></a>
+          
+  <ul class="design">
+                <li><a href="#" class="cup"><h3>CUPS &nbsp;→ </h3></a></li>
+                  <li><a  href="#"class="cup"><h3>GLASSES &nbsp;→  </h3></a></li>
+                    <li><a  href="#" class="cup"><h3>VASES &nbsp;→ </h3></a></li>
+                      <li><a  href="#" class="cup"><h3>TEAPOTS &nbsp;→  </h3></a></li>
+           </ul>    </div>
+            <div class="op"></div>
+        </section>
+        <section class="blog1">
+            <div class="blog">
+                  <h5 class="popu">BLOG</h5>
+            <a  href="#" class="view2 ">VIEW ALL</a>
+            </div>
+            <div class="backimage">
+                <h1 class="body"></h1> 
+                <ul class="newcollection">
+                     <h1 class="aler">New Collection Alert: <br>Handcrafted Ceramics <br>Available Now!</h1>
+                <p class="alert">We're excited to announce the launch of <br>our latest handcrafted ceramic collection!<br>
+Explore unique designs that blend <br>tradition with modern aesthetics. Perfect<br> for any home!<br><br><br><br><br><br>3 aug 2025</p>
+</ul>
+         <h6 class="pollection">&nbsp; COLLECTION</h6>
+         <ul class="po">
+                  <a class="img9"><img src="/Users/rameez/Downloads/ok/Screenshot_2025-08-03_at_9.39.25_AM-removebg-preview-2.png"height="400px"  width="600px"  alt="t"></a>
+               </ul> 
+            <ul class="materials">
+                <h3><br><br>Create Unique Ceramics and Explore Our Custom <br>Design Options!</h3>
+                <h5 class="material"> &nbsp; &nbsp;&nbsp;&nbsp;DESIGN</h5>
+                <h4 class="date">30 JUNE 2025</h4>
+            </ul>
+         <ul class="transform">
+                <h3><br><br>Transform Your Experience and Discover Our <br>Innovative New Materials!</h3>
+                <h5 class="form"> &nbsp; &nbsp;MATERIALS</h5>
+                <h4 class="dae">13 JULY 2025</h4>
+            </ul>
+              <ul class="coll">
+                <h3><br><br>Introducing Our Limited Edition 'Portugal' Collection:<br>Inspired by Timeless Materials</h3>
+                <h5 class="for"> &nbsp; &nbsp; COLLACTION</h5>
+                <h4 class="tea">3 AUG 2025</h4>
+            </ul>
+        </div>
+        </section>
+        <section class="page4">
+            <div class="last">
+            <h6 class="yy"><br><br><br><br><br><br><br><br><br>WHY US</h6>
+            <a class="img10"><img src="/Users/rameez/Downloads/ok/Screenshot_2025-08-03_at_4.13.01_PM-removebg-preview.png" height="400px"  width="600px" alt="uu"></a>
+           <ul class="tree">
+           <h4 class="branch1">COMMITMENT TO HANDCRAFTED QUALITY:<br>EACH PIECE TELLS A STORY</h4>
+           <h5 class="root1">We take pride in our artisanal approach. where every<br> ceramic item is handcrafted with meticulous<br> attention to detail. This dedication ensures that each<br> piece is unique and of the highest quality, reflecting<br> the skill and passion of our artisans.</h5>
+           </ul>
+             <ul class="tree1">
+           <h4 class="branch2">SUSTAINABLE PRACTICES FOR A BETTER <br>TOMORROW: ECO-FRIENDLY CERAMICS</h4>
+           <h5 class="root2">Our commitment to sustainability is evident in our <br>choice of materials and production methods. We<br> use eco-friendly resources, minimizing waste and <br>environmental impact. so you can feel good about<br> your purchase while supporting a greener future.</h5>
+           </ul>
+             <ul class="tree2">
+           <h4 class="branch3">CUSTOMIZATION OPTIONS TO SUIT YOUR <br> STYLE: PERSONALIZED DESIGNS</h4>
+           <h5 class="root3">We understand that every customer has unique<br> tastes. That's why we offer personalized design<br> services, allowing you to collaborate with our team<br> to create custom ceramics that perfectly match your<br> individual style and needs.</h5>
+           </ul>
+            <ul class="tree3">
+           <h4 class="branch4">THOUGHTFUL CUSTOMER EXPERIENCE:<br>YOUR SATISFACTION MATTERS</h4>
+           <h5 class="root4">Customer satisfaction is our priority. We aim for a<br> seamless shopping experience, offering responsive<br> support and easy navigation, ensuring that your <br>journey with us is enjoyable and futfilling. Your<br> happiness is our focus!</h5>
+           </ul>
+            <ul class="tree4">
+           <h4 class="branch5">AFFORDABLE LUXURY: QUALITY WITHIN<br>REACH</h4>
+           <h5 class="root5">We provide high-quality ceramics at accessible<br> prices, allowing you to enjoy handcrafted luxury <br>without overspending Our commitment to<br> affordability ensures that exquisite pieces can <br>enhance your home without compromise</h5>
+           </ul>
+           <ul class="tree5">
+           <h4 class="branch6">INNOVATIVE DESIGNS BLENDING TRADITION <br>AND MODERNITY: TIMELESS APPEAL</h4>
+           <h5 class="root6">Our collection features innovative designs that marry<br> traditional techniques with contemporary aesthetics.<br>This fusion creates timeless pieces that not only<br> serve a purpose but also enhance the beauty of any <br>space. making them perfect for modem living.</h5>
+           </ul>
+           <ul class="img11">
+              <a class="im1"><img src="/Users/rameez/Downloads/Screenshot_2025-08-03_at_5.19.50_PM-removebg-preview.png" height="250px"  width="600px" alt="uu"></a>
+        </ul>
+    </div></section>
+</body>
+</html>
